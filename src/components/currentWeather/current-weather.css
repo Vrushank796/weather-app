@@ -1,0 +1,80 @@
+.weather {
+  width: 600px;
+  border-radius: 20px;
+  box-shadow: 10px -2px 20px 2px rgb(0 0 0 / 30%);
+  color: #fff;
+  /* background-color: #333; */
+  background: linear-gradient(to bottom, #017bfe 0%, rgb(78, 178, 255) 100%);
+  margin: 20px auto 0 auto;
+  padding: 20px 40px 20px 40px;
+}
+
+.top,
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.city {
+  font-weight: 400;
+  font-family: 'Haas Grot Text R Web', 'Helvetica Neue', Helvetica, Arial,
+    sans-serif;
+  font-size: 28px;
+  line-height: 1;
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+.weather-description {
+  font-weight: 400;
+  font-family: 'Haas Grot Text R Web', 'Helvetica Neue', Helvetica, Arial,
+    sans-serif;
+  font-size: 18px;
+  line-height: 2;
+  margin: 0;
+}
+
+.weather-icon {
+  width: 120px;
+}
+
+.temperature {
+  font-weight: 300;
+  font-family: 'Haas Grot Text R Web', 'Helvetica Neue', Helvetica, Arial,
+    sans-serif;
+  font-size: 70px;
+  width: auto;
+  letter-spacing: -5px;
+  margin: 10px 0;
+}
+
+.details {
+  width: 100%;
+  padding-left: 100px;
+}
+
+.parameter-row {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10px;
+}
+
+.paramter-label {
+  text-align: left;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.paramter-value {
+  text-align: right;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.parameter-row .top {
+  border-bottom: 1px solid #fff;
+  margin-bottom: 10px;
+  width: 100%;
+  font-size: 20px;
+}
