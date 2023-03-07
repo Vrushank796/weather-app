@@ -17,7 +17,7 @@ pipeline {
 
         stage('Front-End Unit tests') {
           steps {
-            sh 'npm i && npm run test'
+            sh 'npm cache clean --force && npm fund && npm audit fix --force && npm i --package-lock-only && npm audit fix --force && npm run test'
           }
         }
 
